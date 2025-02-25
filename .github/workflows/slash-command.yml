@@ -30,7 +30,7 @@ jobs:
       # https://github.com/marketplace/actions/command-action
       - name: Catalog
         id: catalog
-        uses: github/command@3f3318d2e0145c6588eaa9c6c93493ca2d7daa97 # v1.5.1
+        uses: github/command@c6920ac0ecbac4544f6f6234d8a02299db570773 # v2.0.0
         with:
           github_token: ${{ steps.app-token.outputs.token }}
           command: /catalog
@@ -71,7 +71,7 @@ jobs:
       # https://github.com/marketplace/actions/command-action
       - name: Gen Command
         id: gen-command
-        uses: github/command@3f3318d2e0145c6588eaa9c6c93493ca2d7daa97 # v1.5.1
+        uses: github/command@c6920ac0ecbac4544f6f6234d8a02299db570773 # v2.0.0
         with:
           github_token: ${{ steps.app-token.outputs.token }}
           command: /gen

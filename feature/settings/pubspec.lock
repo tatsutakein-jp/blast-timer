@@ -95,7 +95,7 @@ packages:
     source: hosted
     version: "3.1.2"
   core_authenticator:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
       path: "../../core/authenticator"
       relative: true
@@ -109,21 +109,21 @@ packages:
     source: path
     version: "1.0.0"
   core_data:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
       path: "../../core/data"
       relative: true
     source: path
     version: "1.0.0"
   core_database:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
       path: "../../core/database"
       relative: true
     source: path
     version: "1.0.0"
   core_datastore:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
       path: "../../core/datastore"
       relative: true
@@ -151,14 +151,14 @@ packages:
     source: path
     version: "1.0.0"
   core_network:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
       path: "../../core/network"
       relative: true
     source: path
     version: "1.0.0"
   core_network_model:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
       path: "../../core/network_model"
       relative: true
@@ -687,10 +687,10 @@ packages:
     dependency: "direct dev"
     description:
       name: yumemi_lints
-      sha256: "5f88e2e5c052133631471b630bc8ef4cd77e7edef4d94b3a0d01d64470295c89"
+      sha256: ecc631dfbbcf6c3af99fd63c2af5307a9c49ac5ac0d05ecc071cb7bc67d402a1
       url: "https://pub.dev"
     source: hosted
-    version: "2.2.0"
+    version: "3.1.0"
 sdks:
   dart: "3.5.4"
   flutter: ">=3.24.5"

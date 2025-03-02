@@ -12,18 +12,18 @@ dependencies:
     path: ../common
   flutter:
     sdk: flutter
-  flutter_adaptive_scaffold: 0.3.1
+  flutter_adaptive_scaffold: 0.3.2
   flutter_localizations:
     sdk: flutter
-  flutter_svg: 2.0.16
+  flutter_svg: 2.0.17
   gap: 3.0.1
   intl: 0.19.0
 
 dev_dependencies:
-  build_runner: 2.4.13
+  build_runner: 2.4.15
   core_testing:
     path: ../testing
-  flutter_gen_runner: 5.8.0
+  flutter_gen_runner: 5.10.0
   flutter_test:
     sdk: flutter
   yumemi_lints: 2.2.0

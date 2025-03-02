@@ -13,14 +13,14 @@ dependencies:
     path: ../common
   core_network_model:
     path: ../network_model
-  dio: 5.7.0
+  dio: 5.8.0+1
   freezed_annotation: 2.4.4
-  retrofit: 4.4.1
+  retrofit: 4.4.2
   riverpod_annotation: 2.6.1
 
 dev_dependencies:
-  build_runner: 2.4.13
-  freezed: 2.5.7
-  retrofit_generator: 9.1.5
+  build_runner: 2.4.15
+  freezed: 2.5.8
+  retrofit_generator: 9.1.9
   riverpod_generator: 2.6.3
   yumemi_lints: 2.2.0

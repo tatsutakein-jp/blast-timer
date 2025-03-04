@@ -9,5 +9,5 @@ dependency_overrides:
   file: 7.0.0
 
 dev_dependencies:
-  melos: 6.2.0
+  melos: 6.3.2
   yumemi_lints: 2.2.0
